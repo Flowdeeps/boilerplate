@@ -26,6 +26,6 @@
     "tests"
   ],
   "dependencies": {
-    "blankslate": "https://github.com/PeteOfRepublic/blankslate.git"
+    "cssrefresh": "http://cssrefresh.frebsite.nl/js/cssrefresh.js"
   }
 }

@@ -1,3 +1,3 @@
-windo.onload = function() {
-	// your code here
+window.onload = function() {
+	
 };
