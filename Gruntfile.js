@@ -33,7 +33,7 @@ module.exports = function ( grunt ) {
         map: false, // inline sourcemaps
         processors: [
           require( 'autoprefixer' )( { browsers: 'last 2 versions' } ),
-          require( 'cssnano' )
+          require( 'cssnano' )()
         ]
       },
       dist: {
@@ -42,7 +42,7 @@ module.exports = function ( grunt ) {
     },
     uglify: {
       options: {
-        mangle: false
+        mangle: false // set to false if you want to rename your variables on deployment - my personal feelings are that you shouldn't as that's not the nature of the web
       },
       build: {
         files: {
